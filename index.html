@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarDekho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><span>Car</span>Dekho</div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="sellcar" src="sellcar.jpg" alt="sellcar">
+        <h1>Sell your car on <span>Car</span>Dekho</h1>
+        <div class="container">
+            <form action="index.php" method="post">
+                <h3>Brand Name</h3>
+                <input type="text" name="BrandName" id="BrandName" placeholder="Enter your Car's Brand Name Here">
+                <h3>Model Name</h3>
+                <input type="text" name="ModelName" id="ModelName" placeholder="Enter your Car's Model Name Here">
+                <h3>KM's Driven</h3>
+                <input type="number" name="KMDriven" id="KMDriven" placeholder="Enter KM's driven">
+                <h3>Starting Price</h3>
+                <input type="number" name="StartingPrice" id="StartingPrice" placeholder="Enter Maximum price expected ">
+                <h3>Ending Price</h3>
+                <input type="number" name="EndingPrice" id="EndingPrice" placeholder="Enter Minimum price expected ">
+                <h3>Location</h3>
+                <input type="text" name="Location" id="Location" placeholder="Enter your location">
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    <footer class="text-center">
+        <p>Copyright &copy; CarDekho.com</p>
+    </footer>
+
+</body>
+</html>

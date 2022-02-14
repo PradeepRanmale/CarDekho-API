@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:yellowgreen;
+    color: white;   
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0px;
+
+}
+nav {
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+.logo span{
+    color: red;
+    padding-left: 45px;
+    
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding: 23px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    font-weight: bolder;
+}
+.sellcar{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+main{
+    height:100vh;
+}
+main h1{
+    display: flex;
+    align-items: flex-start;
+    padding: 25px 55px;
+    font-family: 'Gideon Roman', cursive;
+}
+main h1 span{
+    color: red;
+}
+input{
+    width: 40%;
+    margin: 11px;
+    padding: 7px;
+    font-size: 25px;
+    border: 2px solid yellowgreen;
+    border-radius: 7px;
+    display: block;
+}
+h3{
+    margin-left: 12px;
+    font-family: 'Gideon Roman', cursive;
+}
+.btn{
+    width: 13%;
+    height: 40px;
+    margin-left: 14vw;
+    border: 2px solid yellowgreen;
+    border-radius: 7px;
+    font-family: 'Gideon Roman', cursive;
+    color: red;
+    cursor: pointer;
+    
+}
+.table{
+    border: 2px solid black;
+}
+
+
+footer{
+    height: 12vh;
+    background-color:yellowgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid gray;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
