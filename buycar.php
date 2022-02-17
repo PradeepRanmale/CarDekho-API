@@ -41,7 +41,7 @@ $conn = mysqli_connect("localhost","root","","buycar")
 
 
     }
-    if($budget<500000){
+    if($budget<500000 and $budget>00){
         $sql = "SELECT * FROM  buycar where type='economy'";
         $result = $conn->query($sql);
         if (mysqli_num_rows($result) > 0) {
